@@ -1,0 +1,168 @@
+Select:pseudo-class {
+    property: value;
+    propertyTow: value
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+.container {
+    width: 100%
+}
+
+.d-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 500;
+}
+
+header {
+    background-color: #FDF5F4;
+    padding: 20px 100px;
+}
+
+.logo {
+    cursor: pointer;
+    width: 150px;
+    height: 55px;
+}
+
+.nav {
+    list-style: none;
+}
+
+.nav li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav li a {
+    text-decoration: none;
+    color: #00324A;
+    font-weight: 300px;
+    transition: all 0.3s ease 0s;
+}
+
+.nav li a:hover {
+    color: #FABE3C;
+}
+
+.buttons {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.btn {
+    width: 100px;
+    height: 35px;
+    border-radius: 12px;
+    text-decoration: none;
+}
+
+.Login {
+    color: #FDF5F4;
+    border-color: none;
+    background-color: #00324A;
+    border: 2px solid #00324A;
+    transition: all 0.3s ease 0s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 6px;
+}
+
+.Login:hover {
+    color: #FABE3C;
+}
+
+.reg {
+    color: #00324A;
+    border: 2px solid #FABE3C;
+    transition: all 0.3s ease 0s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.reg:hover {
+    color: #00324A;
+}
+.section-1 {
+    background-color: #FDF5F4;
+}
+
+.vedio {
+    width: 500px;
+    height: 250px;
+}
+
+.hero-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #00324A;
+    font-size: 65px;
+    letter-spacing: 2px;
+    font-weight: normal;
+}
+
+.buttons2 {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.btn2 {
+    width: 200px;
+    height: 35px;
+    border-radius: 12px;
+    text-decoration: none;
+    margin-top: 10px;
+    padding: 1px;
+}
+
+.Schools {
+    color: #FDF5F4;
+    border-color: none;
+    background-color: #00324A;
+    border: 2px solid #00324A;
+    transition: all 0.3s ease 0s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 6px;
+}
+
+.Schools:hover {
+    color: #FABE3C;
+
+}
+.Families {
+    color: #FDF5F4;
+    border-color: none;
+    background-color: #00324A;
+    border: 2px solid #00324A;
+    transition: all 0.3s ease 0s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 6px;
+
+}
+.Families:hover {
+    color: #FABE3C;
+}
+
+/**/
+.topsection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding:15px;
+}
