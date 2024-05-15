@@ -13,15 +13,13 @@ Select:pseudo-class {
     flex-direction: column;
     align-items: center;
     padding: 30px;
-
 }
-
-h3 {
+.all-ages{
     color: #FABE3C;
-    font-weight: normal;
-    font-size: 25px;
+    font-size: 23px;
+    font-weight: 500;
+    margin-top: 20px;
 }
-
 .button {
     padding: 40px;
 }
@@ -39,7 +37,7 @@ h3 {
     align-items: center;
     color: #FDF5F4;
     font-size: 20x;
-    font-weight: 400;
+    font-weight: 500;
 }
 
 .see-btn:hover {
@@ -56,16 +54,16 @@ h3 {
 .card1 {
     width: 300px;
     height: 500px;
-    border: 1px solid #00324A;
+    border: 1px solid #FDF5F4;
     border-radius: 40px;
     padding: 20px;
     margin: 20px;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
     background-color: #FDF5F4;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    box-shadow:  0px 0px 20px 5px rgba(11,47, 61, 0.8);
 }
 
 .title1 {
@@ -113,12 +111,12 @@ h3 {
     border-radius: 40px;
     padding: 20px;
     margin: 20px;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
     background-color: #FDF5F4;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    box-shadow:  0px 0px 20px 5px rgba(11,47, 61, 0.8);
 }
 
 .card3 {
@@ -128,21 +126,14 @@ h3 {
     border-radius: 40px;
     padding: 20px;
     margin: 20px;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
     background-color: #FDF5F4;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    box-shadow:  0px 0px 20px 5px rgba(11,47, 61, 0.8);
 }
-.smoothy-texts {
-    color: #FDF5F4;
-    font-weight:400;
-    font-size: 17px;
-    text-align: center;
-    width: 880px;
 
-}
 .smoothy-flex{
     display: flex;
     justify-content: center;
@@ -154,17 +145,28 @@ h3 {
 .container{
     width: 100%;
 }
-
-
-
+.Smoothy-titles{
+    font-size: 23px;
+    font-weight: 500;
+    color: #FABE3C;
+    margin-bottom:20px;
+}
+.smoothy-texts {
+    color: #FDF5F4;
+    font-weight:400;
+    font-size: 17px;
+    text-align: center;
+    width: 880px;
+}
 .smoothy-title {
     color: #FDF5F4;
-    font-size: 23px;
+    font-size:20px;
+    font-weight: 400;
     width: 400px;
 }
 .smoothy-text {
     color: #FDF5F4;
-    font-size: 17px;
+    font-size: 18px;
     font-weight: 300;
     text-align: left;
     width: 400px;
@@ -183,7 +185,7 @@ h3 {
 }
 .creativity{
     margin-left:110px;
-    margin-top: 60px;
+    margin-top: 50px;
 
 }
 .Secure{
@@ -192,7 +194,6 @@ h3 {
     align-content: center;
     flex-direction: column;
     margin: auto;
-    margin-top: 10px;
 }
 .game{
    display:grid;
@@ -211,9 +212,10 @@ h3 {
     width: 293px;
 }
 .smoothy-img {
-    width: 350px;
-    height: 300px;
-    margin-left: 30px;
+    width:225px;
+    height:230px;
+    margin-left: 80px;
+    margin-bottom: 20px;
 }
 .img-game{
     display: flex;

@@ -166,3 +166,9 @@ header {
     align-items: center;
     padding:15px;
 }
+.free-trial{
+     color: #fabe3c; 
+     padding: 7px;
+     font-size:18px;
+     font-weight: 500;
+}

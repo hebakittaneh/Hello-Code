@@ -1,0 +1,126 @@
+.programmers-flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.section-5{
+    background-color: #FABE3C;
+}
+.container{
+    width: 100%;
+}
+.programmer-title{
+    font-size:20px ;
+    font-weight: 500;
+    color: #00324A;
+    width:700px;
+    text-align: center;
+    margin-top:40px;
+}
+.programmer-text{
+    font-size: 15px;
+    font-weight:500;
+    color: #00324A;
+    width: 1000px;
+    text-align: center;
+    margin-top: 10px;
+}
+.programmer-cards{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+   
+}
+.programmercard-1{
+    width:250px;
+    height: 350px;
+    border-radius: 40px;
+    background-color: #FDF5F4;
+    border: 2px solid #FDF5F4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transform: all 0.1s ease 0.2s;
+}
+/*
+.programmercard-1:hover{
+    width:270px;
+    height:380px;
+}
+*/
+.smoothy-prog{
+    width:20px;
+    height: 20px;   
+    margin-right: 3px;
+}
+.little-title{
+    font-size: 10px;
+    font-weight: 600;
+}
+.smoothy-programmers{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:13px;
+}
+.little-img{
+    width:170px;
+    height:98px;
+    margin-top:10px;
+}
+
+.BY{
+    margin: 10px;
+    color:#00324A;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.proj{
+    color: #FABE3C;
+    font-size: 13px;
+
+}
+.proj-text{
+    font-size: 13px;
+    text-align: center;
+    width: 182px;
+    margin: 10px;
+}
+.programmerscard-2{
+    width:250px;
+    height: 350px;
+    border-radius: 40px;
+    background-color: #FDF5F4;
+    border: 2px solid #FDF5F4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin:20px;
+    transform: all 0.1s ease 0.2s;
+}
+/*.programmerscard-2:hover{
+    width:270px;
+    height:380px;
+
+}
+*/
+.programmerscard-3{
+    width:250px;
+    height: 350px;
+    border-radius: 40px;
+    background-color: #FDF5F4;
+    border: 2px solid #FDF5F4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transform: all 0.1s ease 0.2s;
+}
+/*
+.programmerscard-3:hover{
+    width:270px;
+    height:380px;
+}
+*/
