@@ -1,10 +1,6 @@
-Select:pseudo-class {
-    property: value;
-    propertyTow: value
-}
-
 .section-3 {
     background-color: #00324A;
+    box-shadow:  0px 0px 7px 3px rgba(1, 31, 43, 0.3);
     padding: 0px;
 }
 
@@ -201,6 +197,7 @@ Select:pseudo-class {
 }
 .section-4{
     background-color: #00324A;
+    
 }
 .width1{
     width: 226px;
@@ -211,9 +208,18 @@ Select:pseudo-class {
 .width3{
     width: 293px;
 }
+.arrow{
+    width: 900px;
+    height: 450px;
+    position: absolute;
+    top: 2040px;
+    right:200px
+
+
+}
 .smoothy-img {
-    width:225px;
-    height:230px;
+    width:260px;
+    height:268px;
     margin-left: 80px;
     margin-bottom: 20px;
 }
@@ -221,6 +227,27 @@ Select:pseudo-class {
     display: flex;
     justify-content:space-between;
     align-items: center;
-
 }
+.cloud-left{
+    width:200px;
+    height: 150px;
+    position: absolute;
+    left: 2px;
+  }
+  .cloud-right{
+    width: 180px;
+    height:110px;
+    position: absolute;
+    right: 2px;
+  }
+  .cloud-middle{
+    width: 180px;
+    height: 100px;
+    position: absolute;
+    top: 1px;
+  }
+
+
+
+
 

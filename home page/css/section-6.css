@@ -1,0 +1,94 @@
+.section-6{
+  background-color:#FDF5F4;
+}
+.container{
+  width: 100%;
+}
+.footer-flex{
+  display: flex;
+  align-items:center ;
+  justify-content: space-between;
+}
+.footer-logo{
+  width: 280px;
+  height: 105px;
+  margin: 100px;
+  margin-left: 105px;
+}
+.contact-flex{
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  margin-right: 90px;
+}
+.Contact-Us{
+  color:#FABE3C ;
+  font-size: 20px;
+  font-weight: 500;
+  margin-left: 40px;
+}
+.fa-solid{
+  margin: 20px;
+  opacity: 0.9;
+}
+.icons{
+  display: flex;
+  flex-direction: column;
+  align-items:flex-start;
+  margin: 20px;
+  
+}
+.i1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.icon-text{
+  color:#00324A ;
+  font-weight: 400;
+}
+.section-9{
+  background-color:#00324A ;
+  box-shadow:  0px 0px 7px 3px rgba(1, 31, 43, 0.3);
+}
+.container{
+  width: 100%;
+}
+.social-media{
+  padding:20px;
+}
+.fa-brands{
+  margin-right:10px ;
+}
+.social-icons{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  opacity: 0.9;
+}
+.copy-right{
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.year{
+  color: #FDF5F4;
+  font-weight: 300;
+  font-size: 12px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+.copy{
+  color: #FDF5F4;
+  font-weight: 300;
+}
+
+
+
+
+
+
+
+  
